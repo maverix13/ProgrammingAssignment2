@@ -1,5 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Functions provided below provides ability to cache time consuming 
+## matrix inverse calculation. Use of these functions can be very beneficial
+## for large matrices where repeated calculations are done and data in the matrix
+## is not changing. Hence, providing an efficient way to lookup the inverse rather
+## than calculating it each time.
 
 ## The first function, makeCacheMatrix creates a special "matrix", 
 ## which is really a matrix containing a function to
